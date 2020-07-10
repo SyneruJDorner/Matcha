@@ -1,0 +1,310 @@
+#header_bar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 70px;
+	background-color: rgb(209, 52, 31);
+	z-index: 1;
+}
+
+.dropdown_menu_button
+{
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	float: right;
+	top: 8px;
+	right: 8px;
+	font-size: 16px;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+}
+
+.dropdown_menu_button_roundness
+{
+	border-radius: 4px;
+}
+		
+.dropdown_menu_content
+{
+	display: none;
+	margin: 50px 8px auto;
+	float:right;
+	position: absolute;
+	float: right;
+	top: 0px;
+	right: 0px;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown_menu_content a
+{
+	color: black;
+	padding: 12px 12px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown_menu_content a:hover
+{
+	background-color: #ddd;
+}
+
+.show
+{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.selection_image_dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.selection_image_dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.selection_image_dropdown:hover .selection_image_dropdown-content
+{
+    display: block;
+}
+
+.selection_image
+{
+	width:75px;
+	height:75px;
+	
+	border-radius: 50%;
+	opacity: 1;
+}
+
+.selection_image:hover
+{
+	border-radius: 50%;
+	opacity: 0.75;
+}
+
+.selection_image_choice
+{
+	border-radius: 50%;
+	opacity: 1;
+}
+
+.selection_image_choice:hover
+{
+	 border-radius: 50%;
+	 opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row
+{
+	margin: 100px auto;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+    -webkit-align-items: center;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+div.polaroid
+{
+	margin: 0px auto;
+	width: 30%;
+	min-width: 110px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+.image_options_row
+{
+	margin: auto;
+	margin-right: 200px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+div.container
+{
+	text-align: center;
+	position: relative;
+	top: -25px;
+	padding: 10px 20px;
+}
+
+.gender_image_overlay
+{
+	width:12px;
+}
+
+.profile_btn
+{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.profile_btn:hover
+{
+    opacity: 0.8;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+#snackbar.show
+{
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein
+{
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein
+{
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout
+{
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout
+{
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropimg
+{
+    background-color: transparent;
+    color: transparent;
+}
+
+.dropdown_notifications
+{
+    position: relative;
+    display: inline-block;
+}
+
+.notification-text
+{
+	padding-left:10px;
+}
+
+.dropdown_notifications-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown_notifications-content paragraph-text
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_notifications-content paragraph-text:hover
+{
+	background-color: #ddd;
+}
+
+.dropdown_notifications:hover .dropdown_notifications-content
+{
+	display: block;
+}
