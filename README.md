@@ -38,7 +38,7 @@ A dating web site that matches users together based on thier interests, romantic
 - Click on the start button for "Apache"
 - Click on the start button for "MySQL"
 - Open a web browser of your choosing
-- Type the following in your search bar "http://localhost/camugru/"
+- Type the following in your search bar "http://localhost/matcha/"
 - Hit submit, and the website Matcha should appear.
 
 ## Code Breakdown
