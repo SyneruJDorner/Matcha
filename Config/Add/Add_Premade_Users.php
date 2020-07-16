@@ -124,13 +124,11 @@
     insert_premade_users($connection, "Malcolm",    null, "Briggs",     "MBriggs",      "unspecified", "unspecified");
     insert_premade_users($connection, "Muriel",     null, "Jensen",     "MJensen",      "unspecified", "unspecified");
 
-    //gender, 1994-01-27 00:00:00, Unspecified, justindd1994@gmail.com, 4afb3c94edd0ae1e6140be075e702e697281d30a8798711ffeae3756b72013c6e337f951c518e0c89f4e2061f3cc6b3ef039888cff65db418fdf4c4da554f61b, 0000, 1, 0, "Empty Bio", NULL, 
-
     function insert_premade_users($connection, $name, $middle_name, $surname, $username, $gender, $gender_pref)
     {
 
-        $age            = "1994-01-27 00:00:00";
-        $email 			= "justindd1994@gmail.com";
+        $age            = "1994-01-01 00:00:00";
+        $email 			= "xxxxxxxxxx@gmail.com";
         $pass 			= hash("sha512", "Password@1234");
         $code     		= 0000;
         $user_ip        = "41.71.121.36";

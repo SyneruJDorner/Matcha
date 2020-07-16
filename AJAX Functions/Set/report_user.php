@@ -7,9 +7,7 @@
 		$action = $_POST['action'];
         $args = isset($_POST['arguments']) ? $_POST['arguments'] : "";
         $reported_user = $args['report_user'];
-        //print_r($reported_user);
         $user_requesting = $args['user_requesting'];
-        //print_r($user_requesting);
 		send_confirmation_mail($reported_user, $user_requesting);
 	}
 
@@ -18,31 +16,6 @@
         if (session_status() == PHP_SESSION_NONE)
         session_start();
         
-        /*
-		include 'database.php';
-		
-		$name = $_GET['name'];
-		$username = $_GET['username'];
-
-		$sql = "use matcha";
-		$stmt = $connection->prepare($sql);
-		$stmt->execute();
-
-		$stmt = $connection->prepare("SELECT * FROM registered_users WHERE name=:name AND username=:username");
-		$stmt->execute(array(':name' => $name, ':username' => $username));
-		
-		echo $name . "<br/>";
-		$result = $stmt->fetchAll();
-
-		//print_r($result[0]);
-        */
-
-		//$ID 		= $result[0]['ID'];
-		//$surname 	= $result[0]['surname'];
-		//$email 		= "justicev18@gmail.com";
-		//$code 		= $result[0]['confirmation_code'];
-		//$registered = $result[0]['registered_account'];
-
 		$to         = "justicev18@gmail.com";
 		$subject    = 'Reporting User';
 		
