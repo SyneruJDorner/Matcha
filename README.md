@@ -71,6 +71,11 @@ https://github.com/justindd1994/Matcha/blob/master/matcha.markingsheet.pdf
 4. Log in to your account.
 5. Update first time login information.
 6. Update account information.
+7. Ensure we find people based on our preferences.
+8. Block a user and reported.
+9. Like and unlike a user.
+10. Have two users like each other.
+11. Message each other.
 
 ## Outcomes
 1. The webpage should load.
@@ -79,3 +84,8 @@ https://github.com/justindd1994/Matcha/blob/master/matcha.markingsheet.pdf
 4. Your username should appear in the top-left corner.
 5. Should apply your preferences to the database.
 6. You should be able to edit everything.
+7. People of the right sexual preferences and likes should appear.
+8. The user should be blocked and reported.
+9. Should be likable and unlickable.
+10. Chat may only appear once both have liked each other.
+11. Chat should be live.
