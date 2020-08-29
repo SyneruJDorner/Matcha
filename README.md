@@ -45,11 +45,11 @@ A dating web site that matches users together based on thier interests, romantic
 - Back end technologies
     - PHP
     - SQL
-    - JavaScript
 
 - Front-end technologies
     - HTML
     - CSS
+    - JavaScript
 
 - Database management systems
     - MySQL
