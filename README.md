@@ -57,3 +57,25 @@ A dating web site that matches users together based on thier interests, romantic
 
 ## Project Expectations
 https://github.com/justindd1994/Matcha/blob/master/matcha.markingsheet.pdf
+
+## Ensure
+1. PHP
+2. Config/database.php
+3. Config/setup.php
+4. PDO’s
+
+## Steps
+1. Navigate to localhost/Matcha/
+2. Successfully register an account. Make sure information is valid.
+3. Check your inbox for a verification email and verify your account.
+4. Log in to your account.
+5. Update first time login information.
+6. Update account information.
+
+## Outcomes
+1. The webpage should load.
+2. The account should appear in the database.
+3. You should receive an email with a link to validate your account.
+4. Your username should appear in the top-left corner.
+5. Should apply your preferences to the database.
+6. You should be able to edit everything.
