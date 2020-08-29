@@ -76,6 +76,7 @@ https://github.com/justindd1994/Matcha/blob/master/matcha.markingsheet.pdf
 9. Like and unlike a user.
 10. Have two users like each other.
 11. Message each other.
+12. Click logout.
 
 ## Outcomes
 1. The webpage should load.
@@ -89,3 +90,4 @@ https://github.com/justindd1994/Matcha/blob/master/matcha.markingsheet.pdf
 9. Should be likable and unlickable.
 10. Chat may only appear once both have liked each other.
 11. Chat should be live.
+12. Should take us to the registration page.
